@@ -2,20 +2,181 @@ body{
     background-color: #252B42;
 }
 .a1{
-    width: 1512px;
+    width: 100%;
     height: 60px;
     max-width: 1512px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+     color: white;
+     font-size: large;
+    
+   
+   
 }
 .icon{
     display: none;
+}
+.c1
+{
+    display: flex;
+    align-items: center;
+    gap: 700px;
 }
 .b1{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.b2{
+    display: flex;
+    gap: 30px;
+}
+.b3{
+    display: flex;
+    gap: 20px;
+}
+.b3 button{
+    width: 150px;
+    height: 40px;
+    border: white;
+    border-radius: 5px;
+    background-color: aqua;
+    color: white;
+   
+}
+.a2{
+    width: 100%;
+    height: 400px;
+    max-width: 1512px;
+    margin: auto;
+    display: flex;
+    
+    
+
+}
+.a2 img{
+    margin-top: 70px;
+}
+.c2{
+    width: 80%;
+    max-width: 1512px;
+    display: flex;
+    justify-content: center;
+     margin-top: 100px;
+   
+}
+.b4{
+    width: 40%;
+    max-width: 1512px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: white;
+
+
+}
+.but{
+    display: flex;
+    gap: 20px;
+}
+.b5{
+    width: 40%;
+    max-width: 1512px;
+    
+}
+.but button{
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #23A6F0;
+    color: white;
+    border-color: #23A6F0;
+}
+#qa{
+    background-color: #252B42;
+    border-color:white;
+}
+
+
+.bq1{
+    position: absolute;
+}
+.bq2{
+    position: absolute;
+}
+
+
+
+
+@media (max-width: 500px){
+    .b3{
+        display: none;
+    }
+    .icon{
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
+    .a1{
+        width: 500px;
+        height: 400px;
+        max-width: 500px;
+        margin: auto;
+        display: flex;
+     
+        
+        font-size: larger;
+        gap: 30px;
+    }
+    .b1{
+        display: flex;
+        flex-direction: column;
+    }
+    .b2{
+        display: flex;
+        flex-direction: column;
+    }
+    .c1{
+        display: flex;
+        justify-content: center;
+    }
+    .a2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       margin-top:  100px;
+       width: 500px;
+    }
+    .a2 img{
+        display: none;
+    }
+
+    .c2{
+        width: 500px;
+        display: flex;
+        justify-content: center;
+      
+    }
+    .b4{
+         width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .b4 .but{
+        display: flex;
+        flex-direction: column;
+    }
+    .b5{
+        display: flex;
+        flex-direction: column;
+    }
+     */
+    
+
+
+}
+
 
 
