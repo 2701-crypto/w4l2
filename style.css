@@ -1,0 +1,21 @@
+body{
+    background-color: #252B42;
+}
+.a1{
+    width: 1512px;
+    height: 60px;
+    max-width: 1512px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: none;
+}
+.b1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
